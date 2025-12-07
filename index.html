@@ -7,417 +7,232 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="site-header">
-      <div class="container header-content">
-        <div class="logo">weeclap</div>
-        <nav class="navigation" aria-label="Main navigation">
-          <a href="#">Home</a>
-          <a href="#about">About Us</a>
+      <div class="container header-inner">
+        <div class="logo" aria-label="Weeclap home">weeclap</div>
+        <nav class="nav" aria-label="Primary">
+          <a href="#about">About us</a>
           <a href="#use-cases">Use cases</a>
-          <a href="#services">Our Services</a>
-          <a href="#blog">Blog</a>
+          <a href="#services">Our services</a>
         </nav>
-        <div class="header-actions">
-          <button class="btn ghost" type="button">Contact Us</button>
-          <button class="btn primary" type="button">Contact Us</button>
-          <button class="menu-toggle" type="button" aria-expanded="false">Menu</button>
-        </div>
+        <a class="primary" href="#contact">Contact us</a>
       </div>
     </header>
 
     <main>
       <section class="hero">
-        <div class="container hero-content">
-          <div class="hero-text">
+        <div class="container hero-grid">
+          <div class="hero-copy">
             <p class="eyebrow">Weeclap engineering studio</p>
-            <h1>
-              <span class="highlight">Creative</span> Engineering<br />
-              <span class="highlight">Production-Ready</span><br />
-              Results
-            </h1>
+            <h1>Creative Engineering Production-Ready Results</h1>
             <p class="lead">
-              We help entrepreneurs, SMEs, and brands transform ambitious ideas into reliable, compliant,
-              and production-ready products. We combine mechanical engineering, electronics/IoT, embedded
-              AI, and product design.
+              We help entrepreneurs, SMEs, and brands transform ambitious ideas into reliable, compliant, and
+              production-ready products. We combine mechanical engineering, electronics/IoT, embedded AI, and product
+              design.
             </p>
-            <div class="hero-actions">
-              <button class="btn primary" type="button">Our Services</button>
-              <button class="btn ghost" type="button">Contact Us</button>
+          </div>
+          <div class="hero-visual" aria-hidden="true">
+            <div class="hero-frame">
+              <img class="hero-main" src="assets/Rectangle 22.png" alt="Product collage" />
+              <div class="hero-chip">
+                <span class="chip-label">Our work</span>
+                <img src="assets/Rectangle 21.png" alt="Mechanical detail" />
+              </div>
+              <div class="hero-overlay">
+                <img src="assets/Rectangle 24.png" alt="Prototype detail" />
+                <img src="assets/mechanical-chair.png" alt="Product study" />
+              </div>
             </div>
           </div>
-          <div class="hero-pillars" aria-hidden="true">
-            <span>Mechanical Engineering</span>
-            <span>AI Integration</span>
-            <span>Product Design</span>
-            <span>Prototyping</span>
-            <span>UX / UI</span>
-          </div>
-          <div class="eyebrow">Weeclap Engineering Studio</div>
-          <h1>
-            <span class="highlight">Creative</span> Engineering<br />
-            Production-Ready<br />
-            Results
-          </h1>
-          <p class="lead">
-            We help entrepreneurs, SMEs, and brands transform ambitious ideas into reliable,
-            compliant, and production-ready products. We combine mechanical engineering,
-            electronics/IoT, embedded AI, and product design.
-          </p>
-          <button class="btn primary" type="button">Start Your Project</button>
         </div>
       </section>
 
-      <section id="use-cases" class="section">
-        <div class="container narrow">
-          <div class="section-header">
-            <h2>Use Cases</h2>
-            <p class="lead">
-              We help entrepreneurs, SMEs, and brands transform ambitious ideas into reliable, compliant,
-              and production-ready products. We combine mechanical engineering, electronics/IoT, embedded
-              AI, and product design.
+      <section id="use-cases" class="section use-cases">
         <div class="container">
           <div class="section-header">
-            <h2>Use Cases</h2>
-            <p class="lead">
-              We help entrepreneurs, SMEs, and brands transform ambitious ideas into reliable,
-              compliant, and production-ready products. We combine mechanical engineering,
-              electronics/IoT, embedded AI, and product design.
-            </p>
+            <p class="eyebrow">Use cases</p>
+            <h2>We help entrepreneurs, SMEs, and brands transform ambitious ideas into reliable products.</h2>
           </div>
-          <div class="card-grid">
-            <article class="card">
-              <img src="assets/robotic-arm.png" alt="Robotic arm" />
-              <div class="card-body">
-                <h3>Robotic Arm</h3>
-                <p class="lead">
-                  We help entrepreneurs, SMEs, and brands transform ambitious ideas into reliable,
-                  compliant, and production-ready products.
-                </p>
-              </div>
+          <div class="use-cases-grid">
+            <article class="mini-card">
+              <div class="mini-media"><img src="assets/robotic-arm.png" alt="Robotic arm" /></div>
+              <h3>Robotics</h3>
+              <p>We guide teams from requirement definition to validated, production-ready robotics.</p>
             </article>
-            <article class="card">
-              <img src="assets/mechanical-chair.png" alt="Mechanical chair" />
-              <div class="card-body">
-                <h3>Mechanical Chair</h3>
-                <p class="lead">
-                  We help entrepreneurs, SMEs, and brands transform ambitious ideas into reliable,
-                  compliant, and production-ready products.
-                </p>
-              </div>
+            <article class="mini-card">
+              <div class="mini-media"><img src="assets/mechanical-chair.png" alt="Mechanical chair" /></div>
+              <h3>Industrial design</h3>
+              <p>Ergonomic mechanics engineered for durability, safety, and manufacturability.</p>
             </article>
-            <article class="card">
-              <img src="assets/Untitled_Artwork 94 1.png" alt="Automation illustration" />
-              <div class="card-body">
-                <h3>Automated</h3>
-                <p class="lead">
-                  We help entrepreneurs, SMEs, and brands transform ambitious ideas into reliable,
-                  compliant, and production-ready products.
-                </p>
-              </div>
-              <h3>Robotic Arm</h3>
-              <p class="lead">
-                We help entrepreneurs, SMEs, and brands transform ambitious ideas into reliable,
-                compliant, and production-ready products.
-              </p>
+            <article class="mini-card">
+              <div class="mini-media"><img src="assets/Untitled_Artwork 94 1.png" alt="Automation" /></div>
+              <h3>Automation</h3>
+              <p>Smart automation that blends embedded AI, precise motion, and robust UX.</p>
             </article>
-            <article class="card">
-              <img src="assets/mechanical-chair.png" alt="Mechanical chair" />
-              <h3>Mechanical Chair</h3>
-              <p class="lead">
-                We help entrepreneurs, SMEs, and brands transform ambitious ideas into reliable,
-                compliant, and production-ready products.
-              </p>
-            </article>
-            <article class="card">
-              <img src="assets/Untitled_Artwork 94 1.png" alt="Automation illustration" />
-              <h3>Automated Systems</h3>
-              <p class="lead">
-                We help entrepreneurs, SMEs, and brands transform ambitious ideas into reliable,
-                compliant, and production-ready products.
-              </p>
+            <article class="mini-card">
+              <div class="mini-media"><img src="assets/Untitled_Artwork 92 1.png" alt="Innovation" /></div>
+              <h3>Innovation labs</h3>
+              <p>Rapid experimentation to validate new ideas before scaling.</p>
             </article>
           </div>
         </div>
       </section>
 
       <section id="about" class="section about">
-        <div class="container">
-          <div class="about-columns">
-            <div class="about-block">
-              <h3>About us</h3>
-              <p>
-      <section id="about" class="section">
-        <div class="container">
-          <div class="section-header">
-            <h2>About Us</h2>
+        <div class="container about-grid">
+          <div class="about-copy">
+            <p class="eyebrow">About</p>
+            <h2>We blend cutting-edge technology with creative innovation.</h2>
             <p class="lead">
-              We help entrepreneurs, SMEs, and brands transform ambitious ideas into reliable,
-              compliant, and production-ready products. We combine mechanical engineering,
-              electronics/IoT, embedded AI, and product design.
+              Artificial intelligence, Internet of Things, embedded engineering, design, user experience, user
+              interface, prototype. We engineer solutions that turn ideas into impactful products.
             </p>
-          </div>
-          <div class="info-columns">
-            <div class="info-block">
-              <h3>About us</h3>
-              <p class="lead">
-                We help entrepreneurs, SMEs, and brands transform ambitious ideas into reliable,
-                compliant, and production-ready products.
-              </p>
-            </div>
-            <div class="about-block">
-              <h3>What we stand for</h3>
-              <p>
-                We stand for responsibility, transparency, and creativity. Every project is undertaken
-                with a deep commitment to safety, regulatory compliance, and sustainable impact, not only
-                for our users but also for the environment. We believe in working transparently, clearly
-                communicating risks, timelines, and technical decisions.
-              </p>
-            </div>
-            <div class="about-block">
-              <h3>What we do</h3>
-              <p>
-                Our expertise covers mechanical engineering, electronics/IoT, embedded AI, and product
-                design. We accompany you through every phase from initial concept discussions to in-depth
-                architecture audits—protecting confidentiality agreements.
-              </p>
-            </div>
-          </div>
-
-          <div class="collage-wrapper">
-            <div class="pill-stack">
-              <span class="pill">Mechanical Engineering</span>
-              <span class="pill">AI Integration</span>
-              <span class="pill">Product Design</span>
+            <div class="pill-row">
+              <span class="pill">Mechanical engineering</span>
+              <span class="pill">AI integration</span>
+              <span class="pill">Product design</span>
               <span class="pill">Prototyping</span>
-              <span class="pill">UX</span>
-              <span class="pill">Market Research</span>
-              <span class="pill">Patent &amp; IP Advisory</span>
-            </div>
-            <div class="collage" aria-label="Services collage">
-              <img class="tile long" src="assets/Rectangle 21.png" alt="Mechanical engineering graphic" />
-              <img class="tile square" src="assets/Rectangle 22.png" alt="AI integration graphic" />
-              <img class="tile tall" src="assets/Rectangle 23.png" alt="Embedded solutions graphic" />
-              <img class="tile square" src="assets/Rectangle 24.png" alt="Robotics graphic" />
-              <img class="tile banner" src="assets/Rectangle 4.png" alt="Confidence covered graphic" />
-              <img class="tile badge" src="assets/Untitled_Artwork 80 1.png" alt="Transparency badge" />
-              <img class="tile badge" src="assets/Untitled_Artwork 89 2.png" alt="Quality badge" />
-              <img class="tile badge" src="assets/Untitled_Artwork 92 1.png" alt="Experience badge" />
-              <img class="tile badge" src="assets/Untitled_Artwork 93 1.png" alt="Passion badge" />
-              <img class="tile badge" src="assets/Untitled_Artwork 91 1.png" alt="Creativity badge" />
-              <img class="tile badge" src="assets/Untitled_Artwork 94 1.png" alt="Prestigious badge" />
-            </div>
-            <div class="info-block">
-              <h3>What we stand for</h3>
-              <p class="lead">
-                We work in the open: weekly demos, clear budgets, and collaborative documentation keep
-                stakeholders aligned and informed.
-              </p>
-            </div>
-            <div class="info-block">
-              <h3>What we do</h3>
-              <p class="lead">
-                Our expertise covers mechanical engineering, electronics/IoT, embedded AI, product
-                design, and user experience. We design responsibly with a focus on sustainability,
-                transparency, quality, and technical excellence.
-              </p>
+              <span class="pill">UX/UI</span>
+              <span class="pill">Market research</span>
+              <span class="pill">Patent &amp; IP advisory</span>
             </div>
           </div>
-          <div class="pill-tag" style="margin-top: 16px;">Weeclap 2024</div>
-          <div class="collage" aria-label="Services collage">
-            <img src="assets/Rectangle 21.png" alt="Mechanical engineering graphic" />
-            <img src="assets/Rectangle 22.png" alt="AI integration graphic" />
-            <img src="assets/Rectangle 23.png" alt="Embedded solutions graphic" />
-            <img src="assets/Rectangle 24.png" alt="Robotics graphic" />
-            <img src="assets/Rectangle 4.png" alt="Confidence covered graphic" />
-            <img src="assets/Untitled_Artwork 80 1.png" alt="Transparency badge" />
-            <img src="assets/Untitled_Artwork 89 2.png" alt="Quality badge" />
-            <img src="assets/Untitled_Artwork 92 1.png" alt="Proven badge" />
-            <img src="assets/Untitled_Artwork 93 1.png" alt="Prestigious badge" />
-            <img src="assets/Untitled_Artwork 91 1.png" alt="Rigor badge" />
+          <div class="about-collage">
+            <div class="collage-grid">
+              <article class="info-card">
+                <p class="eyebrow">About us</p>
+                <h3>We help entrepreneurs, SMEs, and brands transform ambitious ideas.</h3>
+              </article>
+              <article class="info-card">
+                <p class="eyebrow">What we stand for</p>
+                <p>
+                  We stand for responsibility, transparency, and creativity. Every project is undertaken with a deep
+                  commitment to safety, regulatory compliance, and sustainable impact.
+                </p>
+              </article>
+              <article class="info-card">
+                <p class="eyebrow">What we do</p>
+                <p>
+                  Our expertise covers mechanical engineering, electronics/IoT, embedded AI, and product design. We
+                  accompany you through every phase from concept to deployment.
+                </p>
+              </article>
+            </div>
+            <div class="logo-strip">
+              <img src="assets/Rectangle 4.png" alt="Innovation banner" />
+              <div class="badge-row">
+                <img src="assets/Untitled_Artwork 80 1.png" alt="Badge" />
+                <img src="assets/Untitled_Artwork 89 2.png" alt="Badge" />
+                <img src="assets/Untitled_Artwork 91 1.png" alt="Badge" />
+                <img src="assets/Untitled_Artwork 92 1.png" alt="Badge" />
+                <img src="assets/Untitled_Artwork 93 1.png" alt="Badge" />
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
       <section id="services" class="section services">
-        <div class="container narrow">
-      <section id="services" class="section">
         <div class="container">
           <div class="section-header">
-            <div class="eyebrow">Our Services</div>
-            <h2>We blend cutting-edge technology with creative innovation</h2>
-            <p class="lead">
-              Artificial intelligence, Internet of Things, embedded engineering, design, user experience,
-              user interface, prototype. We engineer solutions that turn ideas into impactful products.
-              Artificial intelligence, Internet of Things, embedded engineering, design, user
-              experience, user interface, prototype – we engineer solutions that turn ideas into
-              impactful products.
-            </p>
+            <p class="eyebrow">Our services</p>
+            <h2>We deliver end-to-end, production-ready solutions</h2>
           </div>
-          <div class="service-grid">
-            <div class="service-card">
-              <h4>Artificial intelligence</h4>
-              <p>
-                From concept to deployment, we integrate AI to build smarter, adaptive products that
-                learn and improve over time.
-              </p>
-            </div>
-            <div class="service-card">
-              <h4>Internet of Things</h4>
-              <p>
-                Connected devices with secure data pipelines, resilient firmware, and cloud interfaces
-                designed for scale.
-              </p>
-            </div>
-            <div class="service-card">
-              <h4>Electrical engineering</h4>
-              <p>
-                Hardware design, board bring-up, and validation to ensure reliable, efficient electronics
-                ready for production.
-              </p>
-            </div>
-            <div class="service-card">
-              <h4>Mechanical Engineering</h4>
-              <p>
-                Advanced mechanical systems and precision assemblies that balance performance,
-                manufacturability, and durability.
-              </p>
-              <p class="lead">We help entrepreneurs and brands build smarter, adaptive products.</p>
-            </div>
-            <div class="service-card">
-              <h4>Internet of Things</h4>
-              <p class="lead">Connected devices with secure data pipelines and resilient firmware.</p>
-            </div>
-            <div class="service-card">
-              <h4>Embedded engineering</h4>
-              <p class="lead">Robust embedded systems with testing, validation, and long-term support.</p>
-            </div>
-            <div class="service-card">
-              <h4>Design &amp; UX</h4>
-              <p class="lead">Human-centered experiences that make hardware and software intuitive.</p>
-            </div>
+          <div class="services-grid">
+            <article class="service-card">
+              <h3>Artificial intelligence</h3>
+              <p>We integrate AI to build smarter, adaptive products that learn and improve over time.</p>
+            </article>
+            <article class="service-card">
+              <h3>Internet of Things</h3>
+              <p>Connected devices with secure data pipelines, resilient firmware, and cloud interfaces.</p>
+            </article>
+            <article class="service-card">
+              <h3>Electrical engineering</h3>
+              <p>Hardware design, board bring-up, and validation for reliable, efficient electronics.</p>
+            </article>
+            <article class="service-card">
+              <h3>Mechanical engineering</h3>
+              <p>Advanced mechanical systems that balance performance, manufacturability, and durability.</p>
+            </article>
+            <article class="service-card">
+              <h3>Embedded engineering</h3>
+              <p>Robust embedded systems with rigorous testing, validation, and long-term support.</p>
+            </article>
+            <article class="service-card">
+              <h3>Design &amp; UX</h3>
+              <p>Human-centered experiences that make hardware and software intuitive.</p>
+            </article>
           </div>
         </div>
       </section>
 
-      <section class="section impact">
-        <div class="container narrow">
+      <section class="highlight">
+        <div class="container">
+          <p class="eyebrow">Our impact</p>
           <h2>We engineer solutions that turn ideas into impactful products.</h2>
         </div>
       </section>
 
-      <section id="blog" class="section articles">
-        <div class="container narrow">
-      <section id="blog" class="section">
-        <div class="container">
-          <div class="section-header">
-            <h2>Articles from the studio floor</h2>
-            <p class="lead">Notes on patents, collaboration, and the experiments shaping our roadmap.</p>
-          </div>
-          <div class="article-grid">
-            <article class="article-card">
-              <img src="assets/Rectangle 23.png" alt="Patent importance" />
-              <div class="content">
-                <h3>The Importance of Patents</h3>
-                <button class="btn link" type="button">Read Article</button>
-                <p class="lead">How we safeguard IP during prototyping and prepare filings.</p>
-              </div>
-            </article>
-            <article class="article-card">
-              <img src="assets/Rectangle 24.png" alt="Concept to pilot" />
-              <div class="content">
-                <h3>From Concept to Pilot</h3>
-                <button class="btn link" type="button">Read Article</button>
-                <p class="lead">A step-by-step look at turning a napkin sketch into a field-tested pilot.</p>
-              </div>
-            </article>
-            <article class="article-card">
-              <img src="assets/Rectangle 22.png" alt="Collaborative teams" />
-              <div class="content">
-                <h3>Building a Collaborative Engineering Team</h3>
-                <button class="btn link" type="button">Read Article</button>
-                <h3>Building Collaborative Teams</h3>
-                <p class="lead">Playbooks we use to align engineers, designers, and operators.</p>
-              </div>
-            </article>
-            <article class="article-card">
-              <img src="assets/Rectangle 21.png" alt="Faster innovation" />
-              <div class="content">
-                <h3>How to Foster Innovation</h3>
-                <p class="lead">Principles for accelerating experimentation without losing rigor.</p>
-              </div>
-            </article>
-          </div>
+      <section class="section cases">
+        <div class="container cases-grid">
+          <article class="case-card primary-card">
+            <div class="case-meta">
+              <span class="pill">Strawb AgroTech</span>
+              <span>2022-2025</span>
+            </div>
+            <p class="case-title">We have partnered with Strawb to design their first prototypes.</p>
+            <button class="icon-button" type="button" aria-label="Read more">→</button>
+          </article>
+          <article class="case-card muted">
+            <p class="case-title">How to partner with us on your next project.</p>
+            <button class="icon-button" type="button" aria-label="Read more">→</button>
+          </article>
+          <article class="case-card muted">
+            <p class="case-title">Case studies and impact highlights coming soon.</p>
+            <button class="icon-button" type="button" aria-label="Read more">→</button>
+          </article>
         </div>
       </section>
 
-      <section class="contact-section" id="contact">
+      <section class="contact" id="contact">
         <div class="container contact-grid">
           <div class="contact-copy">
-            <p class="eyebrow">Our Services</p>
-            <h2>LET’S CO-CREATE<br /><span class="highlight">SOMETHING</span><br />AMAZING</h2>
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s co-create something amazing</h2>
             <p class="lead">
-              Got a project, idea, or question? We’re ready to help. Whether you’re building your first
-              MVP or scaling a fleet of devices, fill out the form or reach out directly so we can start
-              building the future today.
-          <div>
-            <div class="eyebrow">Ready to partner?</div>
-            <h2 style="margin: 8px 0">Let’s co-create something amazing</h2>
-            <p class="lead">
-              Tell us about your goals and constraints. We’ll shape a delivery plan with clear
-              milestones and dedicated leads across mechanics, electronics, and AI.
+              Got a project, idea, or question? Whether you’re building your first MVP or scaling a fleet of devices,
+              tell us about it.
             </p>
           </div>
           <form class="contact-form">
             <div class="form-row">
-              <div>
-                <label for="first-name">First Name</label>
-                <input id="first-name" name="first-name" type="text" placeholder="First Name" />
-              </div>
-              <div>
-                <label for="last-name">Last Name</label>
-                <input id="last-name" name="last-name" type="text" placeholder="Last Name" />
-                <label for="first-name">First Name *</label>
-                <input id="first-name" name="first-name" type="text" placeholder="Jane" />
-              </div>
-              <div>
-                <label for="last-name">Last Name *</label>
-                <input id="last-name" name="last-name" type="text" placeholder="Doe" />
-              </div>
+              <label for="first-name">First name *</label>
+              <input id="first-name" name="first-name" type="text" placeholder="Jane" />
             </div>
             <div class="form-row">
-              <div>
-                <label for="email">Business E-mail</label>
-                <input id="email" name="email" type="email" placeholder="Business E-mail" />
-              </div>
-              <div>
-                <label for="phone">Phone Number</label>
-                <input id="phone" name="phone" type="tel" placeholder="Phone Number" />
-              </div>
+              <label for="last-name">Last name *</label>
+              <input id="last-name" name="last-name" type="text" placeholder="Doe" />
             </div>
-            <div>
-              <label for="message">Message</label>
-              <textarea id="message" name="message" placeholder="Message"></textarea>
+            <div class="form-row">
+              <label for="email">Email *</label>
+              <input id="email" name="email" type="email" placeholder="you@company.com" />
             </div>
-            <button class="btn submit" type="submit">Submit</button>
-                <label for="email">Email *</label>
-                <input id="email" name="email" type="email" placeholder="you@company.com" />
-              </div>
-              <div>
-                <label for="phone">Phone Number *</label>
-                <input id="phone" name="phone" type="tel" placeholder="(000) 000 0000" />
-              </div>
+            <div class="form-row">
+              <label for="phone">Phone number *</label>
+              <input id="phone" name="phone" type="tel" placeholder="(000) 000 0000" />
             </div>
-            <div>
+            <div class="form-row">
               <label for="message">Message *</label>
               <textarea id="message" name="message" placeholder="Tell us about your project"></textarea>
             </div>
-            <button class="btn primary" type="submit">Submit</button>
+            <button class="primary" type="submit">Submit</button>
           </form>
         </div>
       </section>
@@ -427,85 +242,33 @@
       <div class="container footer-grid">
         <div class="footer-brand">
           <div class="logo">weeclap</div>
-          <p>We engineer solutions that turn ideas into impactful products.</p>
+          <p>Engineering partners for teams shipping reliable, intelligent products.</p>
         </div>
-        <div class="footer-column">
-          <h4>Newsletter</h4>
-          <input type="email" placeholder="john@gmail.com" aria-label="Newsletter email" />
-          <p>Join us to share our love for engineering with you in our monthly newsletter.</p>
+        <div class="footer-links">
+          <h4>Weeclap</h4>
+          <a href="#about">About</a>
+          <a href="#use-cases">Use cases</a>
+          <a href="#services">Services</a>
         </div>
-        <div class="footer-column">
-          <h4>WEECLAP</h4>
-          <a href="#blog">Blog</a>
-          <a href="#">Social</a>
-          <a href="#">Instagram</a>
-          <a href="#">X</a>
-          <a href="#">LinkedIn</a>
-        </div>
-        <div class="footer-column">
+        <div class="footer-links">
           <h4>Product</h4>
-          <a href="#use-cases">Prototyping</a>
+          <a href="#services">Prototyping</a>
           <a href="#services">Process</a>
           <a href="#services">Quality</a>
-          <a href="#services">AI Integration</a>
+          <a href="#services">AI integration</a>
         </div>
-        <div class="footer-column">
+        <div class="footer-links">
           <h4>Resources</h4>
           <a href="#">Documentation</a>
           <a href="#">Uptime</a>
           <a href="#">Roadmap</a>
           <a href="#">Press</a>
-        <div>
-          <div class="logo">weeclap</div>
-          <p>
-            Engineering partners for teams shipping reliable, intelligent products. We blend creativity
-            with rigorous delivery so you can scale with confidence.
-          </p>
-        </div>
-        <div>
-          <h4>Newsletter</h4>
-          <p>Subscribe to our newsletter</p>
-          <p>Terms &amp; Policy</p>
-        </div>
-        <div>
-          <h4>WECLAP</h4>
-          <a href="#about">About</a>
-          <a href="#about">Projects</a>
-          <a href="#contact">Contact</a>
-        </div>
-        <div>
-          <h4>Social</h4>
-          <p>Instagram</p>
-          <p>LinkedIn</p>
-          <p>YouTube</p>
-        </div>
-        <div>
-          <h4>Product</h4>
-          <p>Documentation</p>
-          <p>Uptime</p>
-          <p>Roadmap</p>
-          <p>Press</p>
-        </div>
-        <div>
-          <h4>Resources</h4>
-          <p>Privacy</p>
-          <p>Terms</p>
         </div>
       </div>
       <div class="container footer-bottom">
         <span>All rights reserved © 2025 weeclap</span>
-        <span>Privacy Terms</span>
+        <span>Privacy &amp; Terms</span>
       </div>
     </footer>
-
-    <script>
-      const toggle = document.querySelector('.menu-toggle');
-      const nav = document.querySelector('.navigation');
-
-      toggle?.addEventListener('click', () => {
-        const isOpen = nav?.classList.toggle('open');
-        toggle.setAttribute('aria-expanded', String(!!isOpen));
-      });
-    </script>
   </body>
 </html>
