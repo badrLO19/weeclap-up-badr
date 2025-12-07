@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Weeclap Engineering Studio</title>
+    <title>Weeclap | Creative Engineering Studio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,6 +14,15 @@
   </head>
   <body>
     <header class="site-header">
+      <div class="container">
+        <div class="header-bar">
+          <a class="logo" href="#">WEECLAP</a>
+          <nav class="nav" aria-label="Primary">
+            <a href="#use-cases">Use Cases</a>
+            <a href="#about">About us</a>
+            <a href="#services">Our services</a>
+          </nav>
+          <a class="btn btn-outline" href="#contact">Contact Us</a>
       <div class="container header-inner">
         <div class="logo" aria-label="Weeclap home">weeclap</div>
         <nav class="nav" aria-label="Primary">
@@ -37,8 +46,17 @@
     </header>
 
     <main>
+      <!-- Hero Section -->
       <section class="hero">
         <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Weeclap engineering studio</p>
+            <h1 class="hero-title">
+              <span>Creative</span>
+              <span>Engineering</span>
+              <span>Production-Ready</span>
+              <span class="accent">Results</span>
+            </h1>
           <div class="hero-media" aria-hidden="true">
             <div class="stack">
               <img class="hero-main" src="assets/Rectangle 22.png" alt="Product showcase" />
@@ -67,6 +85,20 @@
               production-ready products. We combine mechanical engineering, electronics/IoT, embedded AI, and product
               design.
             </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#contact">Start Your Project</a>
+              <a class="link" href="#about">Read More</a>
+            </div>
+          </div>
+          <div class="hero-media" aria-hidden="true">
+            <div class="media-frame">
+              <img class="media-main" src="assets/Rectangle 23.png" alt="Product showcase" />
+              <div class="media-chip">
+                <img src="assets/Rectangle 21.png" alt="Process detail" />
+              </div>
+              <div class="media-overlay">
+                <img src="assets/Rectangle 24.png" alt="Prototype detail" />
+                <img src="assets/mechanical-chair.png" alt="Mechanical chair" />
           </div>
           <div class="hero-visual" aria-hidden="true">
             <div class="hero-frame">
@@ -99,6 +131,33 @@
         </div>
       </section>
 
+      <!-- Use Cases -->
+      <section id="use-cases" class="section use-cases">
+        <div class="container">
+          <div class="section-header">
+            <p class="eyebrow">Use Cases</p>
+            <h2>Real-world innovations we’ve engineered</h2>
+          </div>
+          <div class="use-cases-grid">
+            <article class="card use-card">
+              <div class="card-media"><img src="assets/robotic-arm.png" alt="Robotic arm" /></div>
+              <div class="card-body">
+                <p class="eyebrow">ROBOTIC ARM</p>
+                <p class="caption">Read Article</p>
+              </div>
+            </article>
+            <article class="card use-card">
+              <div class="card-media"><img src="assets/mechanical-chair.png" alt="Mechanical chair" /></div>
+              <div class="card-body">
+                <p class="eyebrow">MECHANICAL CHAIR</p>
+                <p class="caption">Read Article</p>
+              </div>
+            </article>
+            <article class="card use-card">
+              <div class="card-media"><img src="assets/Untitled_Artwork 94 1.png" alt="Automated seedling detection" /></div>
+              <div class="card-body">
+                <p class="eyebrow">AUTOMATED SEEDLING DETECTION SYSTEM</p>
+                <p class="caption">Read Article</p>
       <section id="use-cases" class="section use-cases">
         <div class="container">
           <div class="section-header">
@@ -151,8 +210,58 @@
         </div>
       </section>
 
+      <!-- About Section -->
       <section id="about" class="section about">
         <div class="container about-grid">
+          <div class="about-visual">
+            <img src="assets/Rectangle 22.png" alt="Engineering illustration" />
+          </div>
+          <div class="about-column">
+            <p class="eyebrow">About Us</p>
+            <h3>We tailor solutions to propel your project.</h3>
+            <p>
+              Whether you’re launching an innovative prototype or scaling an existing product, we handle the engineering
+              so you can focus on growth.
+            </p>
+          </div>
+          <div class="about-column">
+            <p class="eyebrow">What we Stand For</p>
+            <p>
+              Integrity, transparency, and client-centricity drive everything we do. We strive to exceed expectations
+              while maintaining clear communication and accountability.
+            </p>
+            <p class="eyebrow">What we do</p>
+            <p>
+              We provide end-to-end engineering: concept, design, prototyping, testing, and productization. Our
+              cross-functional expertise ensures robust, scalable solutions.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Values & Identity -->
+      <section class="section identity">
+        <div class="container identity-grid">
+          <article class="identity-card dark">
+            <h3>Where Innovation Meets Intelligence</h3>
+            <button class="icon-btn" type="button" aria-label="Explore">→</button>
+          </article>
+          <article class="identity-card accent-card">
+            <h3>Your creation, confidently covered</h3>
+            <div class="accent-stack">
+              <img src="assets/Rectangle 21.png" alt="Layered visual" />
+              <img src="assets/Untitled_Artwork 89 2.png" alt="Badge" />
+            </div>
+          </article>
+          <article class="identity-card light">
+            <div class="brand-mark">weeclap</div>
+            <p>We guide you through the entire journey—from concept to scalable production.</p>
+          </article>
+          <div class="identity-badges">
+            <span>Creativity</span>
+            <span>Quality</span>
+            <span>Experience</span>
+            <span>Transparency</span>
           <div class="about-copy">
             <p class="eyebrow">About</p>
             <h2>We blend cutting-edge technology with creative innovation.</h2>
@@ -261,8 +370,29 @@
         </div>
       </section>
 
+      <!-- Services -->
       <section id="services" class="section services">
         <div class="container">
+          <div class="section-header narrow">
+            <p class="eyebrow">Our Services</p>
+            <h2>We blend cutting-edge technology with creative innovation to deliver expert solutions.</h2>
+          </div>
+          <div class="services-grid">
+            <article class="card service-card">
+              <h3>ARTIFICIAL INTELLIGENCE</h3>
+              <p>Strategic AI integration for smarter, adaptive solutions, designed to enhance performance and efficiency.</p>
+            </article>
+            <article class="card service-card">
+              <h3>INTERNET OF THINGS</h3>
+              <p>Secure, scalable IoT ecosystems with reliable connectivity, robust data flows, and intuitive user interfaces.</p>
+            </article>
+            <article class="card service-card">
+              <h3>ELECTRICAL ENGINEERING</h3>
+              <p>Comprehensive electrical systems: power, control, and safety engineering for reliable operations.</p>
+            </article>
+            <article class="card service-card">
+              <h3>MECHANICAL ENGINEERING</h3>
+              <p>Innovative mechanical designs optimized for durability, performance, and seamless production.</p>
           <div class="section-header">
             <p class="eyebrow">Our services</p>
             <h2>We deliver end-to-end, production-ready solutions</h2>
@@ -296,6 +426,45 @@
         </div>
       </section>
 
+      <!-- Articles -->
+      <section id="articles" class="section articles">
+        <div class="container">
+          <div class="section-header narrow">
+            <p class="eyebrow">Articles</p>
+            <h2>We engineer solutions that turn ideas into impactful products.</h2>
+          </div>
+          <div class="articles-grid">
+            <article class="card article-card">
+              <img src="assets/Rectangle 24.png" alt="Patent importance" />
+              <div class="card-body">
+                <p class="eyebrow">The Importance of Patents</p>
+                <p class="caption">
+                  Patents safeguard innovation and provide a competitive edge. Understanding their value is crucial for
+                  startups and businesses alike.
+                </p>
+                <a class="link" href="#">Read Article</a>
+              </div>
+            </article>
+            <article class="card article-card">
+              <img src="assets/Rectangle 21.png" alt="From concept to patent" />
+              <div class="card-body">
+                <p class="eyebrow">From Concept to Patent</p>
+                <p class="caption">
+                  Transforming ideas into patents requires strategy, documentation, and a thorough understanding of the
+                  invention’s novelty.
+                </p>
+                <a class="link" href="#">Read Article</a>
+              </div>
+            </article>
+            <article class="card article-card">
+              <img src="assets/Rectangle 22.png" alt="Collaborative engineering team" />
+              <div class="card-body">
+                <p class="eyebrow">Building a Collaborative Engineering Team</p>
+                <p class="caption">
+                  Effective engineering teams thrive on collaboration. Discover how to foster communication and shared
+                  ownership.
+                </p>
+                <a class="link" href="#">Read Article</a>
       <section class="highlight">
         <div class="container">
           <p class="eyebrow">Our impact</p>
@@ -330,6 +499,16 @@
               <p class="case-title">We have partnered with Strawb to design their first prototypes.</p>
               <button class="icon-button" type="button" aria-label="Read more">→</button>
             </article>
+            <article class="card article-card">
+              <img src="assets/Rectangle 23.png" alt="AI innovation" />
+              <div class="card-body">
+                <p class="eyebrow">Leveraging AI for Engineering Innovation</p>
+                <p class="caption">
+                  AI is transforming engineering by streamlining design, testing, and optimization processes for faster
+                  innovation.
+                </p>
+                <a class="link" href="#">Read Article</a>
+              </div>
             <article class="case-card muted">
               <p class="case-title">How to partner with us on your next project.</p>
               <button class="icon-button" type="button" aria-label="Read more">→</button>
@@ -341,6 +520,15 @@
         </div>
       </section>
 
+      <!-- Contact -->
+      <section id="contact" class="section contact">
+        <div class="container contact-grid">
+          <div class="contact-copy">
+            <p class="eyebrow">Contact us</p>
+            <h2>LET’S CO-CREATE SOMETHING AMAZING</h2>
+            <p>
+              Bring your vision to life with a team that listens, iterates, and engineers for real-world impact. Tell us
+              about your project—let’s make it happen.
       <section class="contact" id="contact">
         <div class="container contact-grid">
           <div class="contact-copy">
@@ -353,6 +541,20 @@
           </div>
           <form class="contact-form">
             <div class="form-row">
+              <label for="first-name">First Name *</label>
+              <input id="first-name" name="first-name" type="text" placeholder="Enter First Name" />
+            </div>
+            <div class="form-row">
+              <label for="last-name">Last Name *</label>
+              <input id="last-name" name="last-name" type="text" placeholder="Enter Last Name" />
+            </div>
+            <div class="form-row">
+              <label for="email">Business E-mail *</label>
+              <input id="email" name="email" type="email" placeholder="Enter e-mail" />
+            </div>
+            <div class="form-row">
+              <label for="phone">Phone Number *</label>
+              <input id="phone" name="phone" type="tel" placeholder="Enter phone number" />
               <label for="first-name">First name *</label>
               <input id="first-name" name="first-name" type="text" placeholder="Jane" />
             </div>
@@ -370,8 +572,9 @@
             </div>
             <div class="form-row">
               <label for="message">Message *</label>
-              <textarea id="message" name="message" placeholder="Tell us about your project"></textarea>
+              <textarea id="message" name="message" placeholder="Enter your message"></textarea>
             </div>
+            <button class="btn btn-dark" type="submit">SUBMIT</button>
             <button class="primary" type="submit">Submit</button>
           </form>
         </div>
@@ -380,6 +583,44 @@
 
     <footer class="site-footer">
       <div class="container footer-grid">
+        <div class="footer-column newsletter">
+          <h4>Bring your ideas to life with engineering that’s tailored to you.</h4>
+          <form class="newsletter-form">
+            <input type="email" name="newsletter-email" placeholder="Email Address" aria-label="Email Address" />
+            <button class="btn btn-dark" type="submit">Subscribe</button>
+          </form>
+        </div>
+        <div class="footer-column">
+          <h5>WEECLAP</h5>
+          <a href="#articles">Blog</a>
+          <a href="#services">Services</a>
+          <a href="#">Terms &amp; Policy</a>
+        </div>
+        <div class="footer-column">
+          <h5>Social</h5>
+          <a href="#">Instagram</a>
+          <a href="#">X</a>
+          <a href="#">LinkedIn</a>
+        </div>
+        <div class="footer-column">
+          <h5>Product</h5>
+          <a href="#services">Prototyping</a>
+          <a href="#services">Process</a>
+          <a href="#services">Patenting</a>
+          <a href="#services">AI Integration</a>
+        </div>
+        <div class="footer-column">
+          <h5>Resources</h5>
+          <a href="#">Documentation</a>
+          <a href="#articles">Articles</a>
+          <a href="#contact">Contact us</a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© 2025 WEECLAP</span>
+        <span>All rights reserved</span>
+      </div>
+    </footer>
         <div class="footer-brand">
           <div class="logo">weeclap</div>
           <p>Engineering partners for teams shipping reliable, intelligent products.</p>
